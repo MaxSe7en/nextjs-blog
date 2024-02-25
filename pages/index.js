@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import History, { HistoryTwo } from '../components/HistoryTable/History';
+import History, { HistoryTest, HistoryTwo } from '../components/HistoryTable/History';
 
 export default function Home() {
   return (
@@ -9,8 +9,9 @@ export default function Home() {
         <title>History</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <History />
+      {/* <History /> */}
       {/* <HistoryTwo /> */}
+      {HistoryTest()}
     </div>
   );
 }
