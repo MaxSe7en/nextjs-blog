@@ -1,0 +1,24 @@
+.fifthRow {
+  border-bottom: 1px solid black;
+}
+
+/* //style number round  */
+.number{
+    /* border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000; */
+}
+
+.numberContainer{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #db3232;
+}
