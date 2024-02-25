@@ -68,7 +68,7 @@ const History = () => {
 
         if (distance < 20) { // Adjust this threshold as needed
           if (numberDifference <= 2) {
-            options.startSocket = 'bottom';
+            options.startSocket = 'middle';
             options.endSocket = 'top';
           } else {
             options.startSocket = 'middle';
